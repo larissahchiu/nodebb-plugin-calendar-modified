@@ -1,7 +1,7 @@
 {
-  "name": "nodebb-plugin-calendar",
-  "version": "1.0.0-alpha.50",
-  "description": "Calendar and events for NodeBB",
+  "name": "nodebb-plugin-calendar-modified",
+  "version": "1.0.0",
+  "description": "Calendar and events for NodeBB (Modified from PitaJ)",
   "main": "library.js",
   "scripts": {
     "test": "npm run lint && babel-node ./src/lib/tests",
@@ -22,12 +22,11 @@
     "event",
     "date"
   ],
-  "author": "PitaJ",
-  "license": "MIT",
+  "author": "larissahchiu",
   "bugs": {
-    "url": "https://github.com/pitaj/nodebb-plugin-calendar/issues"
+    "url": "https://github.com/larissahchiu/nodebb-plugin-calendar-modified"
   },
-  "homepage": "https://github.com/pitaj/nodebb-plugin-calendar#readme",
+  "homepage": "https://github.com/larissahchiu/nodebb-plugin-calendar-modified#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
