@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-calendar-modified",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calendar and events for NodeBB (Modified from PitaJ)",
   "main": "library.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pitaj/nodebb-plugin-calendar.git"
+    "url": "git+https://github.com/larissahchiu/nodebb-plugin-calendar-modified.git"
   },
   "keywords": [
     "nodebb",

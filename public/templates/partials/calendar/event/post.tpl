@@ -55,14 +55,6 @@
         </span>
       </div>
     {{{ end }}}
-    {{{ if event.mandatory }}}
-    <div class="plugin-calendar-event-mandatory">
-      <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-      <span>[[calendar:mandatory]]</span>
-    </div>
-    {{{ else }}}
-      <!-- IMPORT partials/calendar/event/responses.tpl -->
-    {{{ end }}}
   </div>
 </div>
 <!-- plugin-calendar-event-wrapper:end -->

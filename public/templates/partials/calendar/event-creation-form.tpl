@@ -55,14 +55,6 @@
         <textarea class="form-control" rows="10"
         id="plugin-calendar-event-editor-description"></textarea>
       </div>
-      <div class="form-group">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" id="plugin-calendar-event-editor-mandatory">
-            [[calendar:mandatory]]
-          </label>
-        </div>
-      </div>
       <div class="form-group plugin-calendar-event-reminders">
         <label for="plugin-calendar-event-editor-reminders">
           <i class="fa fa-bell" aria-hidden="true"></i> [[calendar:reminders]]
