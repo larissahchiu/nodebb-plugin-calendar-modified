@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-calendar-modified",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Calendar and events for NodeBB (Modified from PitaJ)",
   "main": "library.js",
   "scripts": {
