@@ -1,4 +1,5 @@
 {
+  "id": "nodebb-plugin-calendar-modified",
   "name": "NodeBB Calendar plugin",
   "library": "library.js",
   "staticDirs": {

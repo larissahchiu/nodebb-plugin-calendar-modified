@@ -64,7 +64,7 @@ const createEventFactory = () => {
   };
   const getInputs = () => {
     const event = {
-      name: 📅 + inputs.name.val().trim(),
+      name: inputs.name.val().trim(),
       allday: inputs.allday.prop('checked'),
       startDate: inputs.startDate.data('DateTimePicker').date().valueOf(),
       endDate: inputs.endDate.data('DateTimePicker').date().valueOf(),
