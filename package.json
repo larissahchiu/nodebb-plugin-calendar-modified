@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run lint && babel-node ./src/lib/tests",
     "babel": "babel src/lib --out-dir build/lib --source-maps",
-    "build": "npm run babel && webpack --progress --mode=development",
+    "build": "npm run babel && webpack --progress --mode=development && node ../usc-vsi/nodebb build -d",
     "build-production": "npm run babel && webpack --progress --mode=production",
     "release": "npm run test && npm run build-production && npm version prerelease && npm publish",
     "lint": "eslint ./src/"
@@ -51,7 +51,7 @@
     "moment": "^2.24.0",
     "node-emoji": "^1.10.0",
     "source-map-support": "^0.5.12",
-    "validator": "^11.0.0"
+    "validator": "^11.1.0"
   },
   "nbbpm": {
     "compatibility": "^1.10.0"

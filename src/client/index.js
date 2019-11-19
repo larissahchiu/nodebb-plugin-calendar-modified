@@ -1,13 +1,13 @@
 import './locationHistory';
 
 // eslint-disable-next-line camelcase, no-undef
-__webpack_public_path__ = `${config.relative_path}/plugins/nodebb-plugin-calendar/bundles/`;
+__webpack_public_path__ = `${config.relative_path}/plugins/nodebb-plugin-calendar-modified/bundles/`;
 
 jQuery.fn.size = jQuery.fn.size || function size() { return this.length; };
 
 const calendarLoad = () => {
   if (ajaxify.data.template.calendar) {
-    window.require(['plugins/nodebb-plugin-calendar/bundles/calendar']);
+    window.require(['plugins/nodebb-plugin-calendar-modified/bundles/calendar']);
 
     $('#plugin-calendar-cal-event-display').modal({
       backdrop: false,
